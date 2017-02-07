@@ -1,0 +1,36 @@
+
+GRANT SELECT ON [dbo].[PUBLSH_ADDRESS] TO [integration]
+GRANT SELECT ON [dbo].[PUBLSH_COMMENTS] TO [integration]
+GRANT SELECT ON [dbo].[PUBLSH_ContactHistory] TO [integration]
+GRANT SELECT ON [dbo].[PUBLSH_CUSTOMER] TO [integration]
+GRANT SELECT ON [dbo].[PUBLSH_ScheduledAddressChange] TO [integration]
+GRANT SELECT ON [dbo].[PUBLSH_ScheduledSuspendsRestarts] TO [integration]
+GRANT SELECT ON [dbo].[PUBLSH_SUBSCRIPTION] TO [integration]
+
+
+[QSSSTGCODS]
+GRANT SELECT ON [dbo].[ECADD1] TO [integration]
+GRANT SELECT ON [dbo].[ECANSF] TO [integration]
+GRANT SELECT ON [dbo].[ECCMP1] TO [integration]
+GRANT SELECT ON [dbo].[ECExtra] TO [integration]
+GRANT SELECT ON [dbo].[ECJRC1] TO [integration]
+GRANT SELECT ON [dbo].[ECPRC1] TO [integration]
+GRANT SELECT ON [dbo].[ECPRH1] TO [integration]
+GRANT SELECT ON [dbo].[ECRDR1] TO [integration]
+GRANT SELECT ON [dbo].[ECRTS1] TO [integration]
+GRANT SELECT ON [dbo].[PaymentHistory] TO [integration]
+GRANT SELECT ON [dbo].[OfferItem] TO [integration]
+GRANT SELECT ON [dbo].[Product] TO [integration]
+GRANT SELECT ON [dbo].[ScheduledAddressChange] TO [integration]
+GRANT SELECT ON [dbo].[ScheduledSuspendsRestarts] TO [integration]
+GRANT SELECT ON [dbo].[Comments] TO [integration]
+GRANT SELECT ON [dbo].[ContactHistory] TO [integration]
+
+jdbc:sqlserver://172.17.17.199:1433;databaseName=QSSTGCODS;
+
+
+acc 61139597094
+sbbj0011029
+brij mohan
+
+gautam marg valishali nager

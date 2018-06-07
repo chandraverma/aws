@@ -1,0 +1,12 @@
+{
+  "Options":{
+    "S3PathPrefix": "s3://kilimanjaro-test-datalake/spectrum-s3-files/comman/",
+    "Delimiter": "|",
+    "filename": "basiccompanydata_manifest",
+    "arn1": "arn:aws:iam::122403041129:role/Test-SpectrumRole"
+  },
+  "Dbconfig":{
+    "Schema": "spectrum",
+    "Tables": "basiccompanydata"
+  }
+}
